@@ -1,0 +1,19 @@
+{
+  "name": "veilza.github.io",
+  "version": "1.0.0",
+  "description": "A website to cover all my development projects and activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veilza/veilza.github.io.git"
+  },
+  "author": "Veilza",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Veilza/veilza.github.io/issues"
+  },
+  "homepage": "https://github.com/Veilza/veilza.github.io#readme"
+}
