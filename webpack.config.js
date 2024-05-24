@@ -58,11 +58,12 @@ module.exports = (env, argv) => {
         test: /\.js$/,
         loader: "babel-loader",
         exclude: /node_modules/
-      }, {
-        test: /\.(png|jpe?g|gif|webm|mp4|svg)$/,
-        loader: "file-loader",
+      },
+      {
+        test: /\.(png|jpg|gif|svg|ico|webp)$/,
+        loader: 'file-loader',
         options: {
-          outputPath: "assets"
+          name: '[name].[ext]?[hash]'
         }
       }]
     },
