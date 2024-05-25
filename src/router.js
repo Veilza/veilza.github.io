@@ -1,5 +1,5 @@
 // Vue logic
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 // Components
 import ProjectsComponent from '@/components/Projects/projects.vue'
@@ -18,7 +18,7 @@ const routes = [
 
 // Set up the router and export
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 export default router
