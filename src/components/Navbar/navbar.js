@@ -7,6 +7,7 @@ export default {
             isMenuVisible: false,
             navbarimg,
             links: [
+                { text: 'Home', href: '/' },
                 { text: 'Projects Overview', href: '/projects' },
                 { text: 'About Me!', href: '/about' },
                 { text: 'Services', href: '/services' },

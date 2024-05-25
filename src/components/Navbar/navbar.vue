@@ -1,6 +1,8 @@
 <template>
     <nav :class="$style.navbar">
-        <img :src="navbarimg"/>
+        <router-link :to="links[0].href" :class="$style['image-link']">
+            <img :src="navbarimg"/>
+        </router-link>
         <ul :class="$style['nav-links']">
             <li v-for="link in links" :key="link.text">
                 <router-link :to="link.href">{{ link.text }}</router-link>

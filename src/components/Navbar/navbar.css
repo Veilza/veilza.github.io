@@ -23,6 +23,11 @@
     height: 100px;
 }
 
+.navbar .image-link {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar .nav-links {
     display: flex;
     list-style: none;
