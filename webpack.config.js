@@ -29,7 +29,8 @@ module.exports = (env, argv) => {
     devServer: {
       static: dist,
       // to be able to visit dev server from phones and other computers in your network
-      allowedHosts: 'all'
+      allowedHosts: 'all',
+      historyApiFallback: true
     },
     plugins: [
       new HtmlWebpackPlugin(),
@@ -84,7 +85,7 @@ module.exports = (env, argv) => {
           },
         },
       },
-    }
+    },
   };
 
 
