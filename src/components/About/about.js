@@ -3,6 +3,7 @@ import chibi from './../../assets/chibi.webp'
 
 // Logic
 export default {
+  name: 'AboutComponent',
     data() {
         return {
             chibi,

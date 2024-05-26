@@ -3,6 +3,7 @@ import navbarimg from './../../assets/navicon.webp'
 
 // Logic
 export default {
+    name: 'NavbarComponent',
     data () {
         return {
             isMenuVisible: false,
