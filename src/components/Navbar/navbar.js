@@ -1,6 +1,7 @@
 // Assets
 import navbarimg from './../../assets/navicon.webp'
 
+// Logic
 export default {
     data () {
         return {

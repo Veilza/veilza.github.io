@@ -64,7 +64,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .navbar img {
         display: none;
     }

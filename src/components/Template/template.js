@@ -1,7 +1,7 @@
 // Vue components
 import Navbar from "@/components/Navbar/navbar.vue"
 
-// Data model
+// Logic
 export default {
   name: 'TemplateComponent',
   components: {
