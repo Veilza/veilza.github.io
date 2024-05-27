@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.foo">The default page for stuffs.</div>
+    <div :class="$style['foo']">The default page for stuffs.</div>
 </template>
 
 <style src="./home.css" module></style>

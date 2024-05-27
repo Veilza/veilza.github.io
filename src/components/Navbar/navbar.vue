@@ -1,5 +1,5 @@
 <template>
-    <nav :class="$style.navbar">
+    <nav :class="$style['navbar']">
         <router-link :to="links[0].href" :class="$style['image-link']">
             <img :src="navbarimg"/>
         </router-link>

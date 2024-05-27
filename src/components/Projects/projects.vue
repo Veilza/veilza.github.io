@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.foo">All my projects are here!</div>
+    <div :class="$style['foo']">All my projects are here!</div>
 </template>
 
 

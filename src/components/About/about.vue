@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.panels">
+    <div :class="$style['panels']">
         <div :class="$style['panel']">
             <div :class="$style['panel-title']">Lil' History</div>
             <div :class="$style['panel-body']">

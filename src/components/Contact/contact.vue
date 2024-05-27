@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.foo">Xitter</div>
+    <div :class="$style['foo']">Xitter</div>
 </template>
 
 <style src="./contact.css" module></style>
