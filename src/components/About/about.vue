@@ -46,6 +46,26 @@
                 I don't really adhere to one, but I'm usually busy from 8AM to 5PM Monday to Friday, and outside of those hours I'm most available from 2:30AM onwards. (Yes, I'm a creature of the night- Don't worry about it.) 
             </ul>
         </div>
+        <div :class="$style['panel']">
+            <div :class="$style['panel-title']">Music Tastes</div>
+            <ul :class="$style['panel-body']">
+                <li><span :class="$style['item-name']">Pop</span> <span :class="$style['item-description']">Don't listen to what my Spotify says, my top artists are Billie Eilish and EDEN, along with anything you can find in the Pop Danthology mixes.</span></li>
+                <li><span :class="$style['item-name']">EDM</span> <span :class="$style['item-description']">Start playing Varien, Marshmello, Alesso, Alan Walker.. you're gonna have me vibing <b>all</b>night.</span></li>
+                <li><span :class="$style['item-name']">Dubstep</span> <span :class="$style['item-description']">Headhunterz, Knife Party, Krewella, and Tristam my loves. There'll always be a place in my heart for dubstep.</span></li>
+                <li><span :class="$style['item-name']">Rap & Hip-hop</span> <span :class="$style['item-description']">Dr. Dre, Future, Tech N9ne, Juice WRLD, Nicki Minaj, Gunna. Ya gurl loves her rap and hip-hop artists.</span></li>
+            </ul>
+
+            I'll listen to almost anything, though. These are just my go-tos.
+        </div>
+        <div :class="$style['panel']">
+            <div :class="$style['panel-title']">Top 5s...</div>
+            <ul :class="$style['panel-body']">
+                <li><span :class="$style['item-name']">Shows</span> <span :class="$style['item-description']">Digimon, Code Lyoko</span></li>
+                <li><span :class="$style['item-name']">Games</span> <span :class="$style['item-description']">Warframe, Dishonored, League of Legends (I'm not held hostage to say this, I promise.)</span></li>
+                <li><span :class="$style['item-name']">Songs</span> <span :class="$style['item-description']"></span></li>
+                <li><span :class="$style['item-name']">Artists</span> <span :class="$style['item-description']">H</span></li>
+            </ul>
+        </div>
     </div>
 </template>
 
