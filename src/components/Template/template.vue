@@ -2,9 +2,8 @@
   <div id="app">
     <Navbar/>
     <div :class="$style['page-body']">
-
+      <router-view></router-view>
     </div>
-    <router-view></router-view>
   </div>
 </template>
 
