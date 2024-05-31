@@ -1,6 +1,6 @@
 // Logic
 export default {
-    name: 'ServicesComponent',
+    name: 'donationsComponent',
     data() {
         return {
             hello: "Twitter"

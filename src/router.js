@@ -5,7 +5,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeComponent from '@/components/Home/home.vue'
 import ProjectsComponent from '@/components/Projects/projects.vue'
 import AboutComponent from '@/components/About/about.vue'
-import ServicesComponent from '@/components/Services/services.vue'
+import DonationsComponent from '@/components/Donations/donations.vue'
 import ContactComponent from '@/components/Contact/contact.vue'
 
 // Define the routes
@@ -13,7 +13,7 @@ const routes = [
   { path: '/', component: HomeComponent },
   { path: '/projects', component: ProjectsComponent },
   { path: '/about', component: AboutComponent },
-  { path: '/services', component: ServicesComponent },
+  { path: '/donations', component: DonationsComponent },
   { path: '/contact', component: ContactComponent }
 ]
 

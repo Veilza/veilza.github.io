@@ -10,10 +10,10 @@ export default {
             navbarimg,
             links: [
                 { text: 'Home', href: '/' },
-                { text: 'Projects Overview', href: '/projects' },
                 { text: 'About Me!', href: '/about' },
-                { text: 'Services', href: '/services' },
-                { text: 'Contact', href: '/contact' }
+                { text: 'Projects', href: '/projects' },
+                { text: 'Contact & Socials', href: '/contact' },
+                { text: 'Donations', href: '/donations' }
             ]
         }
     },
