@@ -35,7 +35,7 @@ module.exports = (env, argv) => {
     plugins: [
       new HtmlWebpackPlugin(),
       new VueLoaderPlugin(),
-      new CleanWebpackPlugin(),
+      new CleanWebpackPlugin()
     ],
     module: {
       rules: [{
