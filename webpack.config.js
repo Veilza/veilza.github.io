@@ -1,17 +1,17 @@
-const path = require('path');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const {VueLoaderPlugin} = require("vue-loader");
-const {CleanWebpackPlugin} = require("clean-webpack-plugin");
+const path = require('path')
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const {VueLoaderPlugin} = require("vue-loader")
+const {CleanWebpackPlugin} = require("clean-webpack-plugin")
 
 
-const src = path.resolve(__dirname, 'src');
-const dist = path.resolve(__dirname, 'dist');
+const src = path.resolve(__dirname, 'src')
+const dist = path.resolve(__dirname, 'dist')
 
 
 module.exports = (env, argv) => {
-  const IS_PRODUCTION = argv.mode === 'production';
+  const IS_PRODUCTION = argv.mode === 'production'
 
   const config = {
     entry: './src/index.js',
@@ -86,18 +86,18 @@ module.exports = (env, argv) => {
         },
       },
     },
-  };
+  }
 
 
   if (IS_PRODUCTION) {
     // put all CSS files to a single <link rel="stylesheet" href="...">
     config.plugins.push(new MiniCssExtractPlugin({
       filename: "[contenthash].css"
-    }));
+    }))
 
   } else {
-    // config.devtool = "inline-source-map";
+    // config.devtool = "inline-source-map"
   }
 
-  return config;
+  return config
 }

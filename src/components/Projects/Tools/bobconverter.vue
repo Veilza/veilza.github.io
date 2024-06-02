@@ -86,30 +86,30 @@
       },
       copyToClipboard() {
         // Create a textarea element
-        const textarea = document.createElement('textarea');
+        const textarea = document.createElement('textarea')
 
         // Set its value to the text you want to copy
-        textarea.value = this.srgbHex;
+        textarea.value = this.srgbHex
 
         // Append the textarea to the document
-        document.body.appendChild(textarea);
+        document.body.appendChild(textarea)
 
         // Select the text in the textarea
-        textarea.select();
+        textarea.select()
 
         // Execute the copy command
-        document.execCommand('copy');
+        document.execCommand('copy')
 
         // Remove the textarea from the document
-        document.body.removeChild(textarea);
+        document.body.removeChild(textarea)
 
         // Display the "Copied!" message
-        this.copied = true;
+        this.copied = true
 
         // Remove the 'Copied!' notice after a few seconds
         setTimeout(() => {
-        this.copied = false;
-        }, 2000);
+        this.copied = false
+        }, 2000)
       }
     }
   }
