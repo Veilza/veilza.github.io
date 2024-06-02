@@ -30,6 +30,9 @@
       <p v-if="copied" :class="$style['copied-message']">Copied!</p>
     </div>
   </div>
+  <div :class="$style['issue-tracking']">
+    If you have any issues or suggestions, you can find my contact details <router-link :to="'/contact'">here</router-link> or you can put in an issue on my <a href="https://github.com/Veilza/veilza.github.io/issues" target="_blank">GitHub page</a> if you have a GitHub account!
+  </div>
 </template>
 
 <script>
@@ -171,5 +174,13 @@
 
   .clipboard {
     cursor: pointer;
+  }
+
+  .issue-tracking {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
