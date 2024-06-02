@@ -1,0 +1,17 @@
+a {
+  margin-left: 5px;
+}
+
+.blurb {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.donation {
+  column-count: auto;
+  column-width: 500px;
+  column-gap: 30px;
+  text-align: center;
+}
