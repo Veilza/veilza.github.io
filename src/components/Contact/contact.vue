@@ -1,7 +1,7 @@
 <template>
     <div :class="$style['socials']">
         <div :class="$style['x']">
-            <font-awesome-icon :icon="['fab', 'twitter']"/>
+            <font-awesome-icon :icon="['fab', 'x-twitter']"/>
             <a href="https://x.com/VeilzaKinsemi" target="_blank">VeilzaKinsemi</a> @ X
         </div>
 
