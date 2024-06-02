@@ -9,7 +9,7 @@ import butterfly from './assets/butterfly.ico'
 import TemplateComponent from './components/Template/template.vue'
 
 // Import stylings and components
-import '@/style.css'
+import '@/global.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'

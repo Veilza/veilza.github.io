@@ -117,7 +117,7 @@
 
 <style module>
   .container {
-    background-color: rgb(72, 35, 87);
+    background-color: var(--primary-color);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -152,20 +152,6 @@
   .input label, .input input {
     margin-left: 30px;
     margin-right: 30px;
-  }
-
-  button {
-    padding: 10px;
-    background-color: rgb(72, 129, 194);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-
-  button:hover {
-    background-color: rgb(37, 94, 160);
   }
 
   #result {

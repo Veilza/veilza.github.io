@@ -8,14 +8,6 @@ body {
   padding: 120px 10px 10px 10px;
 }
 
-a {
-  color: #c994fc;
-}
-
-a:hover {
-  color: #bc78fc;
-}
-
 @media (max-width: 650px) {
   .page-body {
     padding: 50px 10px 10px 10px;

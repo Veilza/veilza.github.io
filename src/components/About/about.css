@@ -14,7 +14,7 @@
 }
 
 .panels .panel {
-  background-color: rgb(72, 35, 87);
+  background-color: var(--primary-color);
   border: 2px inset #CCC;
 }
 
