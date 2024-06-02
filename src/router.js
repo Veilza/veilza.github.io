@@ -8,10 +8,14 @@ import AboutComponent from '@/components/About/about.vue'
 import DonationsComponent from '@/components/Donations/donations.vue'
 import ContactComponent from '@/components/Contact/contact.vue'
 
+// Other components
+import BoBConverterComponent from '@/components/Projects/Tools/bobconverter.vue'
+
 // Define the routes
 const routes = [
   { path: '/', component: HomeComponent },
   { path: '/projects', component: ProjectsComponent },
+    { path: '/projects/bobconverter', component: BoBConverterComponent },
   { path: '/about', component: AboutComponent },
   { path: '/donations', component: DonationsComponent },
   { path: '/contact', component: ContactComponent }
