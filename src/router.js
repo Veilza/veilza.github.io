@@ -1,7 +1,7 @@
 // Vue logic
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-// Components
+// Main Components
 import HomeComponent from '@/components/Home/home.vue'
 import ProjectsComponent from '@/components/Projects/projects.vue'
 import AboutComponent from '@/components/About/about.vue'
