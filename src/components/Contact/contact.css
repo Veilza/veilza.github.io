@@ -4,7 +4,11 @@ a {
 
 .socials {
   column-count: auto;
-  column-width: 450px;
+  column-width: 500px;
   column-gap: 30px;
   text-align: center;
+}
+
+.socials div {
+  padding: 10px;
 }
