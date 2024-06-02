@@ -1,0 +1,10 @@
+a {
+  margin-left: 5px;
+}
+
+.socials {
+  column-count: auto;
+  column-width: 450px;
+  column-gap: 30px;
+  text-align: center;
+}

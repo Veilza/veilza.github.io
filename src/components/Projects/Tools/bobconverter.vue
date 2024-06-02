@@ -7,6 +7,8 @@
       For a short explanation, Beasts of Bermuda uses sRGB HEX. However, a lot of 2D software (including websites) uses linear HEX and that's what you'll get when you find almost any palette off the Internet. In order to convert between the two, you'd have to do various math and while art programs and other places can do this for you, I was hard-pressed to find a simple colour conversion site to do this one simple thing. So! Here it is.
       <br/><br/>
       This thing does one job: It converts linear HEX to sRGB HEX.
+      <br/><br/>
+      NOTE: You may have to adjust alpha, saturation, and value sliders manually in order to get things <i>perfectly</i> the colour you want, because BoB does its own math after you give it the hexcode.
     </div>
     <hr>
     <form @submit.prevent="convertToSRGB">
