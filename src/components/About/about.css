@@ -15,7 +15,7 @@
 
 .panels .panel {
   background-color: var(--primary-color);
-  border: 2px inset #CCC;
+  border: 2px inset var(--secondary-color);
 }
 
 .panels .panel .panel-title {
