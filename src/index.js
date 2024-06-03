@@ -3,10 +3,12 @@ import { createApp } from 'vue'
 import router from './router.js'
 
 // Assets
-import butterfly from './assets/butterfly.ico'
+import butterflyicon from '@/assets/butterfly.ico'
+import butterflywebp from '@/assets/butterfly.webp'
+import chibi from '@/assets/chibi.webp'
 
 // Components
-import TemplateComponent from './components/Template/template.vue'
+import TemplateComponent from '@/components/Template/template.vue'
 
 // Import stylings and components
 import '@/global.css'
