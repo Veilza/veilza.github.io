@@ -1,5 +1,5 @@
 // Vue logic
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 // Main Components
 import HomeComponent from '@/components/Home/home.vue'
@@ -50,12 +50,16 @@ const routes = [
 
 // Set up the router and export
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
 // Handle events that happen before loading the next page
 router.beforeEach((to, from, next) => {
+  if (to.href.match(/\/#/)) {
+    router.push(to.href.replace(/\#\//, ''))
+  }
+
   // Handle updating the page title
   document.title = to.name ? to.name : baseTitle
   document.head.querySelector("[property='og:title'][content]").content = to.name ? to.name : baseTitle
