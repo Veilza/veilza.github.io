@@ -11,14 +11,41 @@ import ContactComponent from '@/components/Contact/contact.vue'
 // Other components
 import BoBConverterComponent from '@/components/Projects/Tools/bobconverter.vue'
 
+// Variables
+const baseTitle = "Veilza Kinsemi"
+
 // Define the routes
 const routes = [
-  { path: '/', component: HomeComponent },
-  { path: '/projects', component: ProjectsComponent },
-    { path: '/projects/bobconverter', component: BoBConverterComponent },
-  { path: '/about', component: AboutComponent },
-  { path: '/donations', component: DonationsComponent },
-  { path: '/contact', component: ContactComponent }
+  {
+    name: `${baseTitle}`,
+    path: '/',
+    component: HomeComponent
+  },
+  {
+    name: `${baseTitle} / Projects`,
+    path: '/projects',
+    component: ProjectsComponent
+  },
+    {
+      name: `${baseTitle} / Linear to sRGB Color Converter`,
+      path: '/projects/bobconverter',
+      component: BoBConverterComponent
+    },
+  {
+    name: `${baseTitle} / About`,
+    path: '/about',
+    component: AboutComponent
+  },
+  {
+    name: `${baseTitle} / Donations`,
+    path: '/donations',
+    component: DonationsComponent
+  },
+  {
+    name: `${baseTitle} / Contact`,
+    path: '/contact',
+    component: ContactComponent
+  }
 ]
 
 // Set up the router and export
@@ -26,4 +53,14 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes
 })
+
+// Handle events that happen before loading the next page
+router.beforeEach((to, from, next) => {
+  // Handle updating the page title
+  document.title = to.name ? to.name : baseTitle
+
+  // Tell the router to go to the next page
+  next()
+})
+
 export default router
