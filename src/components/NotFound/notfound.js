@@ -1,6 +1,6 @@
 // Logic
 export default {
-    name: 'ContactComponent',
+    name: 'NotFoundComponent',
     data() {
         return { }
     }

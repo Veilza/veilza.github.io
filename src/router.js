@@ -7,6 +7,7 @@ import ProjectsComponent from '@/components/Projects/projects.vue'
 import AboutComponent from '@/components/About/about.vue'
 import DonationsComponent from '@/components/Donations/donations.vue'
 import ContactComponent from '@/components/Contact/contact.vue'
+import NotFoundComponent from '@/components/NotFound/notfound.vue'
 
 // Other components
 import BoBConverterComponent from '@/components/Projects/Tools/bobconverter.vue'
@@ -45,6 +46,11 @@ const routes = [
     name: `${baseTitle} / Contact`,
     path: '/contact',
     component: ContactComponent
+  },
+  {
+    name: '${baseTitle} / 404',
+    path: '/:catchAll(.*)',
+    component: NotFoundComponent
   }
 ]
 
