@@ -58,6 +58,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   // Handle updating the page title
   document.title = to.name ? to.name : baseTitle
+  document.head.querySelector("[property='og:title'][content]").content = to.name ? to.name : baseTitle
 
   // Tell the router to go to the next page
   next()
