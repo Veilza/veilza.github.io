@@ -54,7 +54,7 @@ const routes = [
   },
   {
     name: `${baseTitle} / 404`,
-    path: '/:catchAll(.*)*',
+    path: '/:catchAll((?!fluffenfox).*)*',
     component: NotFoundComponent
   }
 ]
