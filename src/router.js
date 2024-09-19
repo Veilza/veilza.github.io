@@ -48,13 +48,20 @@ const routes = [
     component: ContactComponent
   },
   {
+    path: '/fluffenfox/',
+    beforeEnter (to, from, next) {
+      // Stop Vue Router from loading the page
+      window.location.href = '/fluffenfox/' // Redirect to external URL
+    }
+  },
+  {
     name: `${baseTitle} / 404`,
     path: '/projects/:catchAll(.*)*',
     component: NotFoundComponent
   },
   {
     name: `${baseTitle} / 404`,
-    path: '/:catchAll((?!fluffenfox).*)*',
+    path: '/:catchAll(.*)*',
     component: NotFoundComponent
   }
 ]
