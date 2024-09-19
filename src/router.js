@@ -48,12 +48,12 @@ const routes = [
     component: ContactComponent
   },
   {
-    name: '${baseTitle} / 404',
+    name: `${baseTitle} / 404`,
     path: '/projects/:catchAll(.*)*',
     component: NotFoundComponent
   },
   {
-    name: '${baseTitle} / 404',
+    name: `${baseTitle} / 404`,
     path: '/:catchAll(.*)*',
     component: NotFoundComponent
   }
