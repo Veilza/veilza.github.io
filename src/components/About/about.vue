@@ -9,7 +9,7 @@
                 <br/><br/>
                 I've done lots of things, mostly web development-related, but I've made software like chatbots and helpful little programs too (mostly lost to the sands of time nowadays, before I used version control systems.)
                 <br/><br/>
-                My very first big collaborative project was working on the <a href="https://github.com/Rayji96/foundry-V5" target="_blank">World of Darkness 5e</a> system for <a href="https://foundryvtt.com/packages/vtm5e/" target="_blank">FoundryVTT</a>, adding support for Werewolf the Apocalypse 5th edition that had just released. Since then, I've been its lead developer and helped to add a ton of new features! And clean up a lot of old code along the way.
+                My very first big collaborative project was working on the <a href="https://github.com/WoD5E-Developers/wod5e" target="_blank">World of Darkness 5e</a> system for <a href="https://foundryvtt.com/packages/vtm5e/" target="_blank">FoundryVTT</a>, adding support for Werewolf the Apocalypse 5th edition that had just released. Since then, I've been its lead developer and helped to add a ton of new features! And clean up a lot of old code along the way.
                 <br/><br/>
                 I've done various contributions to other projects and made a few other modules of my own for Foundry too, but I would say 80% of what I do is solo projects. Not to say that I don't like working with people! But I like to push myself and I can rarely ask that of other people.
             </div>
@@ -43,7 +43,7 @@
                 <br/><br/>
                 As for a <b><i>schedule</i></b>...
                 <br/><br/>
-                I don't really adhere to one, but I'm usually busy from 8AM to 5PM Monday to Friday, and outside of those hours I'm most available from 2:30AM onwards. (Yes, I'm a creature of the night- Don't worry about it.) 
+                I don't really adhere to one, but I'm usually busy from 8AM to 5PM Monday to Friday, and outside of those hours I'm most available from 2:30AM onwards. (Yes, I'm a creature of the night- Don't worry about it.)
             </ul>
         </div>
         <div :class="$style['panel']">
